@@ -1,1 +1,19 @@
+#info{
+    padding: 60px 0;
+}
+#info h2{
+    width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
 
+form{
+    margin: 40px 0 40px 10px;
+    }
+#message {
+    padding:;
+    
+ }
