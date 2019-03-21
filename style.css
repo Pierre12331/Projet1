@@ -7,7 +7,60 @@ h1{
 }
 
 body{
-    background: ;
+    background-color: #ADD8E6;
+}
+
+.diaporama1{
+	margin: 0 auto;
+	width: 960px;
+	height: 500px;
+	border: 3px solid #333;
+	background-image: url("images/defilement1.jpg");
+
+	webkit-animation-name: diapo1;
+	webkit-animation-duration: 12s;
+	webkit-animation-delay: 1s;
+	webkit-animation-transition: 1s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: diapo1;
+	moz-animation-duration: 12s;
+	moz-animation-delay: 1s;
+	moz-animation-transition: 1s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name: diapo1;
+	animation-duration: 12s;
+	animation-animation-delay: 1s;
+	animation-transition: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+	0%{background-image: url("images/defilement1.jpg");}
+	25%{background-image: url("images/defilement2.jpg");}
+	50%{background-image: url("images/defilement3.jpg");}
+	75%{background-image: url("images/defilement4.jpg");}
+}
+
+@-moz-keyframes diapo1{
+	0%{background-image: url("images/defilement1.jpg");}
+	25%{background-image: url("images/defilement2.jpg");}
+	50%{background-image: url("images/defilement3.jpg");}
+	75%{background-image: url("images/defilement4.jpg");}
+}
+
+@keyframes diapo1{
+	0%{background-image: url("images/defilement1.jpg");}
+	25%{background-image: url("images/defilement2.jpg");}
+	50%{background-image: url("images/defilement3.jpg");}
+	75%{background-image: url("images/defilement4.jpg");}
 }
 
 #searchbar {
@@ -20,9 +73,25 @@ body{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+    font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+    text-decoration: 0;
 }
+
+a{
+	text-decoration: none;
+}
+
+#navigation{
+	text-decoration: none;
+}
+
 .para1 {
 	width: 50%;
+}
+
+.bouton{
+	background-image: url('./search.svg');
+	background-size: contain;
 }
 
 
