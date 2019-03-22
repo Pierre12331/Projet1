@@ -130,3 +130,43 @@ a{
 	background-image: url('./search.svg');
 	background-size: contain;
 }
+#info{
+    padding: 60px 0;
+}
+.section-title{
+    max-width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+.form-field{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: .5em 1em;
+}
+
+.submit{
+    padding: .5em 2em;
+    margin-left: auto;
+}
+
