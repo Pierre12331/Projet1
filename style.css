@@ -1,1 +1,81 @@
+h2 {
+    color:#4d1da5;
+    text-align: center;
+		font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    margin-top: 5%; 
+}
 
+h4 {
+  color:#4d1da5;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  margin-top: 5%; 
+}
+
+.title {
+  font-family: 'Kaushan Script', cursive; 
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+
+
+
+.a-img-txt{
+display:grid; 
+}
+.a-img-txt2{
+  display: inline;
+}
+
+
+.a-img-txt>*{
+  grid-area:1/1/-1/-1;
+}
+
+.a-txt{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color: white;
+  font-style: italic;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
+  opacity:0;
+  filter:invert(0); 
+  transition:opacity .8s;
+}
+
+
+
+.a-txt:hover{
+  opacity:1;
+}
+.a-img-txt:hover .a-img{
+  filter:invert(0);
+}
+.a-img-txt{
+  
+  margin:24px;
+  font-family: 'Pacifico', cursive;
+  font-size:50px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:24px;
+  gap:24px;
+}
+
+
+a{
+  text-decoration:none;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+div {
+  text-align:center;
+  white-space:nowrap;
+}
