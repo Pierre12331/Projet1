@@ -1,12 +1,145 @@
-h2 {
-    color:#4d1da5;
-    text-align: center;
-		font-family: 'Kaushan Script', cursive;
-    font-size: 3em;
-    margin-top: 5%; 
+h1{
+	font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	background-image: url("");
+
 }
 
-h4 {
+.content-wrapper {
+	background-image: url('images/bluesky.jpg');
+	background-size: cover;
+
+}
+
+.content-wrapper h1{
+	margin: 0;
+	padding: 1em;
+}
+
+.content-wrapper img {
+	width: 100%;
+}
+
+.text-wrapper {
+	width: 100%;
+	position: relative;
+	margin-top: -40%;
+}
+
+.text-wrapper h1 {
+	text-align: center;
+	font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    margin:0;
+}
+
+.diaporama1{
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	border: 3px solid #333;
+	background-image: url("images/defilement5.jpg");
+
+	webkit-animation-name: diapo1;
+	webkit-animation-duration: 12s;
+	webkit-animation-delay: 1s;
+	webkit-animation-transition: 1s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: diapo1;
+	moz-animation-duration: 12s;
+	moz-animation-delay: 1s;
+	moz-animation-transition: 1s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name: diapo1;
+	animation-duration: 12s;
+	animation-animation-delay: 1s;
+	animation-transition: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+	0%{background-image: url("images/defilement5.jpg");}
+	25%{background-image: url("images/defilement6.jpg");}
+	50%{background-image: url("images/defilement7.jpg");}
+	75%{background-image: url("images/defilement8.jpg");}
+}
+
+@-moz-keyframes diapo1{
+	0%{background-image: url("images/defilement5.jpg");}
+	25%{background-image: url("images/defilement6.jpg");}
+	50%{background-image: url("images/defilement7.jpg");}
+	75%{background-image: url("images/defilement8.jpg");}
+}
+
+@keyframes diapo1{
+	0%{background-image: url("images/defilement5.jpg");}
+	25%{background-image: url("images/defilement6.jpg");}
+	50%{background-image: url("images/defilement7.jpg");}
+	75%{background-image: url("images/defilement8.jpg");}
+}
+
+#searchbar {
+	text-align: right;
+}
+
+.Boutondenavigation{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+    text-decoration: 0;
+
+
+}
+
+nav{
+		border-bottom: 3px solid #02b8dd;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#navigation{
+	text-decoration: none;
+}
+
+.para1 {
+	width: 50%;
+}
+
+.bouton{
+	background-image: url('./search.svg');
+	background-size: contain;
+}
+#info{
+    padding: 60px 0;
+}
+.section-title{
+    max-width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
+h3 {
   color:#4d1da5;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
@@ -14,11 +147,19 @@ h4 {
   margin-top: 5%; 
 }
 
+h4 {
+color:#4d1da5;
+text-align: center;
+font-family: 'Kaushan Script', cursive;
+font-size: 3em;
+margin-top: 5%; 
+}
+
 .title {
-  font-family: 'Kaushan Script', cursive; 
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 1%;
+font-family: 'Kaushan Script', cursive; 
+text-align: center;
+margin-top: 2%;
+margin-bottom: 1%;
 }
 
 
@@ -28,54 +169,95 @@ h4 {
 display:grid; 
 }
 .a-img-txt2{
-  display: inline;
+display: inline;
 }
 
 
 .a-img-txt>*{
-  grid-area:1/1/-1/-1;
+grid-area:1/1/-1/-1;
 }
 
 .a-txt{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color: white;
-  font-style: italic;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
-  opacity:0;
-  filter:invert(0); 
-  transition:opacity .8s;
+display:flex;
+justify-content:center;
+align-items:center;
+color: white;
+font-style: italic;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
+opacity:0;
+filter:invert(0); 
+transition:opacity .8s;
 }
 
 
 
 .a-txt:hover{
-  opacity:1;
+opacity:1;
 }
 .a-img-txt:hover .a-img{
-  filter:invert(0);
+filter:invert(0);
 }
 .a-img-txt{
-  
-  margin:24px;
-  font-family: 'Pacifico', cursive;
-  font-size:50px;
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-gap:24px;
-  gap:24px;
+
+margin:24px;
+font-family: 'Pacifico', cursive;
+font-size:50px;
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap:24px;
+gap:24px;
 }
 
 
 a{
-  text-decoration:none;
+text-decoration:none;
+}
+img:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+}
 }
 img{
-  max-width:100%;
-  height:auto;
+max-width:100%;
+height:auto;
+-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+}
+ 
 }
 div {
-  text-align:center;
-  white-space:nowrap;
+text-align:center;
+white-space:nowrap;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.label{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px;
+}
+
+.form-field{
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: .5em 1em;
+}
+
+.submit{
+  padding: .5em 2em;
+  margin-left: auto;
 }

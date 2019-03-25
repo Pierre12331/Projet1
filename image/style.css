@@ -16,9 +16,7 @@ body{
     text-align: center;
 }
 
-.section-title{
-    font-size: : 48px;
-}
+
 .navigation{
     display: flex;
     position: absolute;
@@ -47,11 +45,6 @@ body{
     list-style: none;
 }
 
-.navigation-item a{
-    color: : #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 .header{
     background-image: url('header.png');
