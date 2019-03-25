@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Romanesco" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
@@ -22,7 +23,6 @@
 
     <div id="searchbar">
 
-        <p>Recherche<p>
         <form action="" class="formulaire">
             <input class="champ" type="text" />
             <input class="bouton" type="button" value="" />
@@ -42,9 +42,17 @@
     <div class="diaporama1">
 
     </div>
+    
     <h2 id="Mission">Mission</h2>
-    <div class="para1">
-        <p>
+    
+    <div class="video1">
+        <div class="item-video">            
+            <div class = "video-container">
+                <iframe class = "item-video" width="560" height="315" src="https://www.youtube.com/embed/xsJHR1AbMhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <p class = "item-video">
             Nous sommes trois amis d'enfances qui ont grandi à l'île de Ré,
             l'idée de ce site est de nous aider à promouvoir cette île Française magnifique.
             Des étendues apparemment infinies de sable pale et doux et une mer magnifique entourant L'ile de Re.
@@ -56,7 +64,7 @@
         </p>
     </div>
 
-    <h3 class="title">Activités</h3>
+    <h2 id= "Activités", class="title">Activités</h2>
     <a class="a-img-txt" href="le_chef_banniere.jpg">
         <img class="a-img" src="le_chef_banniere.jpg" alt="resturants">
         <span class="a-txt c1">Restaurants</span>
@@ -73,7 +81,7 @@
     </a>
 
 
-    <h4 class="title">Logements</h4>
+    <h2 id= "Logements", class="title">Logements</h2>
     <a class="a-img-txt" href="maison.jpg">
         <img class="a-img" src="maison.jpg" max-width:100% alt="chambre">
         <span class="a-txt">Chambres d'hôtes</span>
@@ -83,7 +91,7 @@
         <span class="a-txt">Hotels</span>
     </a>
     <section id="info">
-        <h2 class="section-title">Plus d'info</h2>
+        <h2 id="Infos", class="section-title">Plus d'Infos</h2>
         <form class="form">
             <label class="label" for="email">Email:
                 <input class="form-field" type="email" name="email" id="email" placeholder="Votre email">
