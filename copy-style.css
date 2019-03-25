@@ -45,21 +45,6 @@ body{
 	border: 3px solid #333;
 	background-image: url("images/defilement5.jpg");
 
-	webkit-animation-name: diapo1;
-	webkit-animation-duration: 12s;
-	webkit-animation-delay: 1s;
-	webkit-animation-transition: 1s;
-	webkit-animation-timing-function: linear;
-	webkit-animation-iteration-count: infinite;
-	webkit-animation-direction: normal;
-
-	moz-animation-name: diapo1;
-	moz-animation-duration: 12s;
-	moz-animation-delay: 1s;
-	moz-animation-transition: 1s;
-	moz-animation-timing-function: linear;
-	moz-animation-iteration-count: infinite;
-	moz-animation-direction: normal;
 
 	animation-name: diapo1;
 	animation-duration: 12s;
@@ -70,19 +55,7 @@ body{
 	animation-direction: normal;
 }
 
-@-webkit-keyframes diapo1{
-	0%{background-image: url("images/defilement5.jpg");}
-	25%{background-image: url("images/defilement6.jpg");}
-	50%{background-image: url("images/defilement7.jpg");}
-	75%{background-image: url("images/defilement8.jpg");}
-}
 
-@-moz-keyframes diapo1{
-	0%{background-image: url("images/defilement5.jpg");}
-	25%{background-image: url("images/defilement6.jpg");}
-	50%{background-image: url("images/defilement7.jpg");}
-	75%{background-image: url("images/defilement8.jpg");}
-}
 
 @keyframes diapo1{
 	0%{background-image: url("images/defilement5.jpg");}
@@ -125,11 +98,9 @@ a{
 	width: 50%;
 }
 
-.bouton {
-	background-image : url ( ' ./ images / search.svg ' );
-	background-image: url('./images/search.svg');
+.bouton{
+	background-image: url('./search.svg');
 	background-size: contain;
-	background-repeat: no-repeat;
 }
 #info{
     padding: 60px 0;
@@ -229,6 +200,8 @@ height:auto;
 	transition: .3s ease-in-out;
 }
 
+ 
+
 div {
 text-align:center;
 white-space:nowrap;
@@ -260,44 +233,4 @@ white-space:nowrap;
 .submit{
   padding: .5em 2em;
   margin-left: auto;
-}
-
-
-ul,li{
-	list-style: none;
-   }
-
-.block{
-	display: flex;
-	justify-content:space-around;
-	align-items: baseline;
-	color:rgb(255, 255, 255);
-}
- footer{
-	height:100%;
-	max-height: 300px;
-	padding: .7em 5em;
-	background-color: rgb(5, 5, 5);
- }
-
-.footer{
-	text-align: center;
-	font-weight: bold;
-} 
-
-.footer-button{
-	display: block;
-    width: 100%;
-    max-width: 300px;
-	padding: .3em 1em;
-	border-radius: 3px;
-}
-
-.logo{
-	display:block;
-    width:150px;
-}
-
-.footer li{
-	margin-bottom: 10px;
 }
