@@ -1,3 +1,8 @@
+h1{
+	font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	background-image: url("");
 
 h1{
 	font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
@@ -54,7 +59,6 @@ body{
 	animation-iteration-count: infinite;
 	animation-direction: normal;
 }
-
 
 
 @keyframes diapo1{
