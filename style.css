@@ -108,6 +108,11 @@ body{
 
 }
 
+.click{
+	color: blue;
+	text-decoration: underline;
+}
+
 nav{
 		border-bottom: 3px solid #02b8dd;
 }
