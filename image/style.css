@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    margin:  0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.site-title, .site-section{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+}
+
+.site-title{
+    font-size: 56px;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.navigation{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.logo{
+    display: block;
+    width: 55px;
+}
+.logo img{
+    max-width: 100%;
+}
+.navigation-item:not(:last-child) {
+    margin-right: 20px;
+}
+.navigation-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.header{
+    background-image: url('header.png');
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
