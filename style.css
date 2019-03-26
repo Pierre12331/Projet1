@@ -468,7 +468,7 @@ h1{
 	}
 
 	#searchbar {
-		left: 70%;
+	display: none;	
 	}
 
 	.video1 {
