@@ -291,3 +291,56 @@ ul,li{
 .footer li{
 	margin-bottom: 10px;
 }
+
+@media screen and (max-width: 320px){
+
+h1{
+	font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	background-image: url("");
+}
+
+.Boutondenavigation{
+	display: flex;
+	flex-direction: column;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
+    text-decoration: 0;
+
+}
+.diaporama1{
+	display: none;
+}
+
+.para1 {
+	width: 100%;
+}
+
+body{
+    width: 100%;
+    margin:0;
+}
+
+h2 {
+  color:#4d1da5;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5em;
+}
+
+#searchbar {
+	text-align: right;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+}
