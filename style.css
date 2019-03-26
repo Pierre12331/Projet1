@@ -103,8 +103,34 @@ body{
     font-weight: bold;
     font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
     text-decoration: 0;
+}
 
 
+.video-container{
+	padding-bottom: 56.25%;
+	height: 0;
+	width: 100%;
+	position: relative;
+}
+
+
+.video-container iframe{
+	height: 100%;
+	width: 100%;
+	position: absolute ;
+	top:0;
+	left: 0;
+}
+
+.item-video {
+	width: calc(50% - 10px) ;
+	text-align:justify;
+	margin-left: 120px;
+}
+
+.click {
+	color: blue;
+	text-decoration: underline;
 }
 
 nav{
