@@ -42,7 +42,7 @@ body{
 	width: 1000px;
 	height: 500px;
 	background-image: url("images/defilement5.jpg");
-		margin-top: 20px;
+	margin-top: 20px;
 
 	
 	animation-name: diapo1;
@@ -77,13 +77,24 @@ body{
 }
 
 .Boutondenavigation{
-    display: inline-block;
-    width: 24%;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
     text-align: center;
     font-size: 2em;
     font-weight: bold;
     font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
     text-decoration: 0;
+}
+
+.menu-btn{
+	display: none;
+}
+
+
+.toggle{
+	display: none;
 }
 
 
@@ -295,7 +306,7 @@ ul,li{
 	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
 
 h1{
 	font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
@@ -304,15 +315,25 @@ h1{
 	background-image: url("");
 }
 
-.Boutondenavigation{
-	display: flex;
-	flex-direction: column;
-    font-size: 1em;
-    font-weight: bold;
-    font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
-    text-decoration: 0;
 
-}
+ .Boutondenavigation {
+ 	display: none;
+ }
+
+ .Boutondenavigation a {
+ 	display: block;
+ 	border-bottom: 1px solid #02b8dd;
+ 	margin: 0;
+ }
+
+ .menu-btn{
+ 	display: block;
+ }
+
+ .toggle:checked + .Boutondenavigation {
+        display: block;
+    }
+
 .diaporama1{
 	display: none;
 }
@@ -334,16 +355,28 @@ h2 {
 }
 
 #searchbar {
-	text-align: right;
-	display: flex;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 100%;
-	justify-content: space-between;
-	align-items: center;
-	padding: 4px;
-	box-sizing: border-box;
+
+	left: 70%;
+
 }
 
+.video1 {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+}
+
+.item-video {
+	text-align:justify;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+ .p1{
+ 	text-align: center;
+ 	margin-left: 40px;
+ }
 }
