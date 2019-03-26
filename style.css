@@ -42,8 +42,8 @@ body{
 	margin: 0 auto;
 	width: 1000px;
 	height: 500px;
-	border: 3px solid #333;
 	background-image: url("images/defilement5.jpg");
+		margin-top: 20px;
 
 	webkit-animation-name: diapo1;
 	webkit-animation-duration: 12s;
@@ -128,6 +128,14 @@ body{
 	margin-left: 120px;
 }
 
+.video1 {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	width: 80%;
+
+}
+
 .click {
 	color: blue;
 	text-decoration: underline;
@@ -168,20 +176,12 @@ a{
     border-bottom: 1px solid #02b8dd;
     padding-bottom: 20px;
 }
-h3 {
+h2 {
   color:#4d1da5;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 3em;
   margin-top: 5%; 
-}
-
-h4 {
-color:#4d1da5;
-text-align: center;
-font-family: 'Kaushan Script', cursive;
-font-size: 3em;
-margin-top: 5%; 
 }
 
 .title {
