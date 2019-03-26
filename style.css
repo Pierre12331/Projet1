@@ -194,7 +194,7 @@ display: inline;
 	align-items:center;
 	color: white;
 	font-style: italic;
-	opacity:1;
+	opacity:0;
 	transition:opacity .8s;
 	}
 
@@ -207,8 +207,7 @@ opacity:1;
 	display: block;
 	margin:24px;
 	font-family: 'Pacifico', cursive;
-	font-size:28px;
-	line-height: 1em;
+	font-size:50px;
 }
 
 .a-img{
@@ -479,8 +478,8 @@ h1{
 	}
 
 	.a-txt{
-		opacity: 0;
-		font-size: 50px;
+		font-size: 20px;
+		opacity: inherit
 	}
 		
 	
