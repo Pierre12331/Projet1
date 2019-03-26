@@ -186,7 +186,7 @@ display: inline;
 	align-items:center;
 	color: white;
 	font-style: italic;
-	opacity:0;
+	opacity:1;
 	transition:opacity .8s;
 	}
 
@@ -199,7 +199,8 @@ opacity:1;
 	display: block;
 	margin:24px;
 	font-family: 'Pacifico', cursive;
-	font-size:50px;
+	font-size:28px;
+	line-height: 1em;
 }
 
 .a-img{
@@ -295,7 +296,7 @@ ul,li{
 	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 768px){
 
 h1{
 	font-family: Kaushan Script, Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
@@ -346,4 +347,9 @@ h2 {
 	box-sizing: border-box;
 }
 
-}
+	.a-txt{
+		opacity: 0;
+		font-size: 50px;
+		}
+	}
+	
