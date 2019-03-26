@@ -21,8 +21,6 @@
     </div>
 
     <div id="searchbar">
-
-        <p>Recherche<p>
                 <form action="" class="formulaire">
                     <input class="champ" type="text" />
                     <input class="bouton" type="button" value="" />
@@ -30,12 +28,16 @@
                 </form>
     </div>
     <nav>
-        <ul>
-            <div class="Boutondenavigation"><a href="#Mission">Mission</a></div>
-            <div class="Boutondenavigation"><a href="#Activités">Activités</a></div>
-            <div class="Boutondenavigation"><a href="#Logements">Logements</a></div>
-            <div class="Boutondenavigation"><a href="#Infos">Plus d'Infos</a></div>
-        </ul>
+        <div class="nav">
+            <label class="menu-btn"  for="toggle"><img src="./images/burger-menu.svg"></label>
+            <input type="checkbox" class="toggle" id="toggle" />
+                <div class="Boutondenavigation">
+                    <a href="#Mission">Mission</a>
+                    <a href="#Activités">Activités</a>
+                    <a href="#Logements">Logements</a>
+                    <a href="#Infos">Plus d'Infos</a>
+                </div>
+            </div>        
     </nav>
 
 
@@ -53,7 +55,7 @@
                 </iframe>
             </div>
         </div>
-        <p class="item-video">
+        <p class="item-video" class = "p1">
             Nous sommes trois amis d'enfances qui ont grandi à l'île de Ré,
             l'idée de ce site est de nous aider à promouvoir cette île Française magnifique.
             Des étendues apparemment infinies de sable pale et doux et une mer magnifique entourant L'ile de Re.
@@ -66,7 +68,7 @@
     </div>
 
     
-    <h3 class="title">Activités</h3>
+    <h2 id="Activités" class="title">Activités</h2>
     <div class="wrapper">
         <a class="a-img-txt" href="index2.html">
             <img class="a-img" src="le_chef_banniere.jpg" alt="resturants">
@@ -84,7 +86,7 @@
         </a>
 
 
-        <h4 class="title">Logements</h4>
+        <h2 id="Logements" class="title">Logements</h2>
         <a class="a-img-txt" href="maison.jpg">
             <img class="a-img" src="maison.jpg" max-width:100% alt="chambre">
             <span class="a-txt">Chambres d'hôtes</span>
@@ -95,7 +97,7 @@
         </a>
     </div>
     <section id="info">
-        <h2 class="section-title">Plus d'info</h2>
+        <h2 id="Infos" class="section-title">Plus d'info</h2>
         <form class="form">
             <label class="label" for="email">Email:
                 <input class="form-field" type="email" name="email" id="email" placeholder="Votre email">
