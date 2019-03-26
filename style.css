@@ -285,7 +285,10 @@ ul,li{
 
 .logo{
 	display:block;
-    width:150px;
+		width:150px;
+		bottom: 100%;
+    max-width: 100%;
+    position: relative;
 }
 
 .footer li{
