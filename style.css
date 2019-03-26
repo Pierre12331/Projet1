@@ -232,7 +232,7 @@ height:auto;
 div {
 text-align:center;
 }
-
+ /*form*/
 .form{
   display: flex;
   flex-direction: column;
@@ -261,7 +261,7 @@ text-align:center;
   margin-left: auto;
 }
 
-
+/*footer*/
 ul,li{
 	list-style: none;
    }
@@ -299,4 +299,13 @@ ul,li{
 
 .footer li{
 	margin-bottom: 10px;
+}
+
+/*html 2*/
+.cadre{
+	display: block;
+	width:100%;
+	margin: 5px; 
+  border: 3px inset #050301; 
+  background: white; 
 }
