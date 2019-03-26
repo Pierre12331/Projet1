@@ -1,4 +1,3 @@
-
 h1{
 	font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
 	text-align: center;
@@ -103,8 +102,34 @@ body{
     font-weight: bold;
     font-family: Zapfino, Vacations in Paradise Personal Use, Amatic SC, Impact, Arial Black, Arial, Verdana, sans-serif;
     text-decoration: 0;
+}
 
 
+.video-container{
+	padding-bottom: 56.25%;
+	height: 0;
+	width: 100%;
+	position: relative;
+}
+
+
+.video-container iframe{
+	height: 100%;
+	width: 100%;
+	position: absolute ;
+	top:0;
+	left: 0;
+}
+
+.item-video {
+	width: calc(50% - 10px) ;
+	text-align:justify;
+	margin-left: 120px;
+}
+
+.click {
+	color: blue;
+	text-decoration: underline;
 }
 
 nav{
@@ -165,68 +190,52 @@ margin-top: 2%;
 margin-bottom: 1%;
 }
 
-
-
-
-.a-img-txt{
-display:grid; 
+.wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
 }
+
 .a-img-txt2{
 display: inline;
 }
+.a-txt{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color: white;
+	font-style: italic;
+	opacity:0;
+	transition:opacity .8s;
+	}
 
+.a-img-txt:hover .a-txt{
+opacity:1;
+}
 
-.a-img-txt>*{
-grid-area:1/1/-1/-1;
+.a-img-txt{
+	position: relative;
+	display: block;
+	margin:24px;
+	font-family: 'Pacifico', cursive;
+	font-size:50px;
+}
+
+.a-img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 .a-txt{
-display:flex;
-justify-content:center;
-align-items:center;
-color: white;
-font-style: italic;
-text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
-opacity:0;
-filter:invert(0); 
-transition:opacity .8s;
-}
-
-
-
-.a-txt:hover{
-opacity:1;
-}
-.a-img-txt:hover .a-img{
-filter:invert(0);
-}
-.a-img-txt{
-
-margin:24px;
-font-family: 'Pacifico', cursive;
-font-size:50px;
-display:grid;
-grid-template-columns:1fr 1fr;
-grid-gap:24px;
-gap:24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
 a{
 text-decoration:none;
-}
-img:hover{
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-
-img{
-max-width:100%;
-height:auto;
--webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 
 div {
